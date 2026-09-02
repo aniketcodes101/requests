@@ -51,7 +51,7 @@ def request(
     :param verify: (optional) Either a boolean, in which case it controls whether we verify
             the server's TLS certificate, or a string, in which case it must be a path
             to a CA bundle to use. Defaults to ``True``.
-    :param stream: (optional) if ``False``, the response content will be immediately downloaded.
+    :param stream: (optional) if ``False``, the response content will be immediately downloaded. Defaults to ``False``.
     :param cert: (optional) if String, path to ssl client cert file (.pem). If Tuple, ('cert', 'key') pair.
     :return: :class:`Response <Response>` object
     :rtype: requests.Response
